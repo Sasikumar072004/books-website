@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(236, 236, 236);
+    font-family: poppins;
+    overflow-x: hidden;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.top-bar{
+    padding: 20px 20px;
+    background-color: white;
+}
+
+.top-bar i{
+    margin-right: 40px;
+    font-size: 20px;
+}
+
+.nav-item{
+    align-items: center;
+    margin-left: 90px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    margin-left: 100px;
+}
+
+.nav-item, .logo, .searchbar{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.navbar{
+    position: sticky;
+    top: 0px;    
+    background-color: white;
+    text-align: center;
+    padding: 20px 10px;
+    z-index: 2;
+}
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 8px;
+    color: gray;
+}
+
+.navbar a:hover{
+    background-color: lightgray;
+    border-radius: 25px;
+    color: black;
+    transition: 0.5s;
+
+}
+
+.searchbar{
+    position: absolute;
+    left: 990px;
+    margin-top: 25px;
+}
+
+.searchbar input{
+    padding: 10px;
+    background-color: rgb(243, 243, 243);
+    border: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.searchbar input:focus{
+    outline: 0px;
+}
+
+.searchbar button{
+    position: absolute;
+    padding: 10px;
+    background-color:rgb(153, 187, 219);
+    border: 0px;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 100%;
+    font-family: poppins;
+}
+
+.section1-content{
+    padding: 70px;
+    position: relative;
+    background-image: url(../header-img.webp);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.section1-content h2{
+    margin-top: 90px;
+    font-size: 50px;
+}
+
+.section1-content button{
+    background-color: rgb(153, 187, 219);
+    border: 0px;
+    padding: 10px 30px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 30px;
+    font-family: poppins;
+    border-radius: 5px;
+}
+
+.section1-content button:last-child{
+    background-color: #fefefe;
+    color: rgb(153, 187, 219);
+    border: 2px solid rgb(153, 187, 219);
+    margin-left: 30px;
+    font-family: poppins;
+}
+
+.section2{
+    padding: 30px;
+    background-color: #f5f4f0;
+}
+
+.section2 .content{
+    display: inline-block;
+    margin-left: 150px;
+}
+ .section2 h2{
+    font-size: xx-large;
+}
+
+.section2 p{
+    position: relative;
+    right: 15px;
+}
+
+.section3{
+    padding: 30px;
+    margin: 100px 130px;
+}
+.section3 img{
+    
+    width: 450px;
+    height: 450px;
+    float: left;
+}
+
+.section3 .main-text{
+    float: right;
+    width: 500px;
+}
+
+.section3 .main-text h6{
+    color: orangered;
+    letter-spacing: 3px;
+    font-size: medium;
+    margin-bottom: 8px;
+}
+
+.section3 .main-text h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.section3 .main-text p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.section3 .main-text button{
+    padding: 10px;
+    background-color:rgb(153, 187, 219);
+    border: 0px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: poppins;   
+}
+
+.section4{
+    clear: both;
+    padding: 70px;
+}
+
+.section4 .txt{
+    text-align: center;
+}
+
+.section4 h6{
+    color: orangered;
+    letter-spacing: 3px;
+    font-size: larger;
+
+}
+
+.section4 h3{
+    font-size: xx-large;
+    margin-bottom: 30px;
+}
+
+
+.section4 .bookcontent{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.section4 .book-div{
+    width: 350px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.section4 .book-div img{
+    width: 220px;
+    height: 300px;
+}
+
+.section4 h3{
+    font-size: smaller;
+}
+
+.section4 .booktext{
+    display: inline-block;
+    width: 100px;
+    margin-left: 10px;
+    float: right;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.section4 span{
+    color: orangered;
+}
+
+.section4 .bookcontent h3{
+    margin-top: 10px;
+}
+.footer{
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding:100px 70px 60px ;
+}
+
+.section4 .txt h3{
+    font-size: xx-large;
+    margin-bottom: 20px;
+}
+
+.box{
+    display: inline-block;
+    width: 400px;
+    font-size: small;
+}
+
+.box a{
+    color: white;
+}
+
+.box2 {
+    position: relative;
+    top: 25px;
+}
+
+.box3{
+    position: relative;
+    top: 10px;
+}
+.box2 a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin-bottom: 10px;
+}
+.box i{
+    margin-top: 30px;
+    margin-right: 20px;
+    background-color: lightblue;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 8px;
+    border-radius: 20px;
+    
+}
+
+.box3 span{
+    position: relative;
+    margin-left: -15px;
+}
+
+.box h4{
+    font-size: x-large;
+    margin-bottom: 20px;
+}
+.copyrighttxt{
+    text-align:center;
+    padding: 60px 0px 0px  100px 
+}
